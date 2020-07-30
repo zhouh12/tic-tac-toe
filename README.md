@@ -3,7 +3,7 @@
 ## Project structure 
 
 The following is the project UI hierarchy with folder & file description.<br /> 
-
+```bash
 .storybook                               -- storybook configuration 
 │  
 .build                                   -- production output folder
@@ -41,7 +41,7 @@ src                                      -- UI source code
 │   │   └── _all.scss                    -- a scss file combines all components' scss files
 │   │ 
 ├── App.tsx                              -- home page displays tic-tac-toe component 
-
+```
 
 ### `npm run start`
 
