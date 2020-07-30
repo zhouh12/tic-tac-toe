@@ -23,7 +23,7 @@
     "dev": "npm run storybook",
     "build": "react-scripts build && npm run build:sass && npm run test",
     "build:sass": "node-sass --output-style expanded src/scss/components/_all.scss src/lib/css/all.css",
-    "test": "react-scripts test",
+    "test": "react-scripts test --watchAll",
     "test:coverage": "npm run test -- --collectCoverage=true",
     "eject": "react-scripts eject",
     "lint": "eslint --fix src/**/*.{js,jsx,ts,tsx, scss, css}",
@@ -65,7 +65,10 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.5",
     "jest": "^24.9.0",
+    "jest-enzyme":"^7.1.2",
+    "jest-cli":"26.1.0",
     "prettier": "^2.0.5",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "node-sass": "^4.5.0"
   }
 }
