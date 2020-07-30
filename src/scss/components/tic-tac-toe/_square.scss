@@ -1,0 +1,26 @@
+$square-background-color: #a0d2eb;
+$square-border-color:#e5eaf5;
+$square-border-radius: 6px;
+$square-font-size:54px;
+$square-font-color: #e5eaf5;
+$square-font-weight: bold;
+$square-line-height:1.5;
+$square-height:90px;
+$square-width:90px;
+$square-padding:0;
+
+.square {
+    background-color: $square-background-color;
+    border: 1px solid $square-border-color;
+    font-size: $square-font-size;
+    font-weight: $square-font-weight;
+    color: $square-font-color;
+    line-height: $square-line-height;
+    height: $square-height;
+    width: $square-width;
+    padding: $square-padding;
+    border-radius: $square-border-radius;
+    &:focus {
+        outline: none;
+    }
+}

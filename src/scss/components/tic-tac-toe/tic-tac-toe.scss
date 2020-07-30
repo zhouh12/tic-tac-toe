@@ -1,0 +1,26 @@
+@import 'board';
+@import 'square';
+
+$component-margin-top: 20px;
+$component-margin-left: 20px;
+$button-background-color: #13B5EA;
+$button-font-size:24px;
+
+
+.tic-tac-toe {
+    display: flex;
+    flex-direction: row;
+    &__board {
+        margin-left: $component-margin-left;
+        margin-top: $component-margin-top;
+    }
+    &__info {
+        margin-left: $component-margin-left;
+        margin-top: $component-margin-top;
+    }
+    &__button {
+        background-color: $button-background-color;
+        color: #FFF;
+        font-size: $button-font-size;
+    }
+}

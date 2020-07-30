@@ -1,0 +1,16 @@
+{
+    "setupFiles": ["<rootDir>/src/setupTests.ts"],
+    "testRegex": "/*.test.tsx$",
+    "collectCoverage": true,
+    "coverageReporters": ["lcov"],
+    "coverageDirectory": "test-coverage",
+    "coverageThreshold": {
+        "global": {
+            "statements": 90,
+            "branches": 90,
+            "functions": 90,
+            "lines": 90
+        }
+    },
+    "moduleDirectories": ["node_modules", "src"]
+   }

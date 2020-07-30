@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TicTacToeComponent renders correctly 1`] = `
+<div
+  className="tic-tac-toe"
+>
+  <div
+    className="tic-tac-toe__board"
+  >
+    <div>
+      <div>
+        <div
+          className="board__row"
+        >
+          <button
+            className="square"
+            onClick={[Function]}
+          />
+          <button
+            className="square"
+            onClick={[Function]}
+          />
+          <button
+            className="square"
+            onClick={[Function]}
+          />
+        </div>
+        <div
+          className="board__row"
+        >
+          <button
+            className="square"
+            onClick={[Function]}
+          />
+          <button
+            className="square"
+            onClick={[Function]}
+          />
+          <button
+            className="square"
+            onClick={[Function]}
+          />
+        </div>
+        <div
+          className="board__row"
+        >
+          <button
+            className="square"
+            onClick={[Function]}
+          />
+          <button
+            className="square"
+            onClick={[Function]}
+          />
+          <button
+            className="square"
+            onClick={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="tic-tac-toe__info"
+  >
+    <div>
+      Next player: X
+    </div>
+    <div>
+      <button
+        className="tic-tac-toe__button"
+        onClick={[Function]}
+      >
+        Restart Game
+      </button>
+    </div>
+  </div>
+</div>
+`;

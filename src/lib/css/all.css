@@ -1,0 +1,42 @@
+.board__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  background-color: #a0d2eb;
+  border: 1px solid #e5eaf5;
+  font-size: 54px;
+  font-weight: bold;
+  color: #e5eaf5;
+  line-height: 1.5;
+  height: 90px;
+  width: 90px;
+  padding: 0;
+  border-radius: 6px;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.tic-tac-toe {
+  display: flex;
+  flex-direction: row;
+}
+
+.tic-tac-toe__board {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.tic-tac-toe__info {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.tic-tac-toe__button {
+  background-color: #13B5EA;
+  color: #FFF;
+  font-size: 24px;
+}
