@@ -4,6 +4,7 @@ on:
   pull_request:
 
 jobs:
+  ci-dev:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
