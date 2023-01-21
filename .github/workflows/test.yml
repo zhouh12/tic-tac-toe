@@ -1,9 +1,9 @@
-name: CI - dev
+name: test
 on: 
-  push
   pull_request
 
 jobs:
+  Test:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
