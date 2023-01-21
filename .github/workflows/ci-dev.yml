@@ -1,8 +1,7 @@
+name: Hello world
 on: [push]
 
-jobs:
-  build:
-  name: Hello world
+jobs: 
   runs-on: ubuntu-latest
   steps:
   - uses: actions/checkout@v2
